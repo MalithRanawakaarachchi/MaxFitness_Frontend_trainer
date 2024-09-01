@@ -1,0 +1,18 @@
+/* TrainerDetails.css */
+.trainer-details {
+    position: fixed;
+    top: 60px; /* Adjust the top value to position the component below the navbar */
+    right: 0; /* Start off-screen on the right */
+    width: 900px; /* Adjust the width as needed */
+    height: calc(100vh - 60px); /* Take up the remaining height below the navbar */
+    background-color: white; /* Adjust the background color as needed */
+    transform: translateX(100%); /* Slide off-screen to the right */
+    transition: transform 0.4 s; /* Add a transition effect for smooth sliding */
+    z-index: 999; /* Ensure it appears above other elements */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add an outer shadow */
+  }
+  
+  .show-details {
+    transform: translateX(0); /* Slide in from the right when visible */
+  }
+  

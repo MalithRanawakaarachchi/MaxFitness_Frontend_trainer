@@ -1,0 +1,14 @@
+.pro-container{
+    width: 300px;
+    height: calc(100vh - 355px);
+    right: 0px;
+    position: fixed;
+    top: 57px; 
+    background-color: white; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+    border-radius: 25px;
+    margin-right: 50px;
+}
+.hide-visibility{
+    display: none;
+}

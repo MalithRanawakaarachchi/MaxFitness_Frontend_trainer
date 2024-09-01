@@ -1,0 +1,63 @@
+.form-style{
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.topic{
+    text-align: center;
+    padding-top: 40px;
+    -webkit-text-fill-color: rgb(185, 250, 45);
+}
+.text-left{
+    text-align: left;
+}
+.text-margin{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.text-margin2{
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.login-button-margin{
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+.content-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.b-success{
+    background-color: #5AC96C;
+    border-color: #5AC96C;
+}
+.b-login-size{
+    width:80px;
+}
+.login-background {
+    background-image: url('../images/loginbackground.jpg');
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    /* Additional background styles as needed */
+}
+.border{
+    border-style: solid;
+}
+.empty-div{
+    height:260px;
+    padding-top: 50px;
+
+}
+.text-box{
+    border-color: #ABAAAA;
+}
+.img-div{
+    padding-top: 50px;
+    padding-left: 600px;
+}
+.logo-img-login{
+    width: 100px;
+    height:100px;
+    margin-bottom: 10px;
+}
+
+  

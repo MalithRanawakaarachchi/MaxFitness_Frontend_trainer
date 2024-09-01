@@ -1,0 +1,68 @@
+.payment-details {
+    position: fixed;
+    top: 60px; 
+    right: 0; 
+    width: 1000px; 
+    height: calc(100vh - 60px); 
+    background-color: white; 
+    transform: translateX(100%); 
+    transition: transform 0.4s ease-out; 
+    z-index: 999; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .show-details {
+    transform: translateX(0); 
+  }
+
+  .upper-text{
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .lower-text{
+    font-size: 13px;
+    color: black;
+  }
+
+  .lower-text-equipment{
+    font-size: 14px;
+    color: black;
+  }
+
+  .status-box{
+    color: white;
+    background-color: rgb(0, 224, 0);
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    width:100px;
+    padding-bottom: 3px;
+  }
+
+  .regi-box{
+    border: none;
+    color: black;
+    background-color: white;
+    margin-left: 35px;
+  }
+
+  .scrollable-content {
+    height: 600px; /* Set the desired height for the scrollable area */
+    overflow: auto; /* Add scrollbars if content overflows */
+  }
+
+  .scrollable-content::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scroll bar */
+  }
+
+  .history-table-container{
+    max-height: 640px; /* Set the desired fixed height for the table container */
+    overflow-y: auto;
+  }
+
+  .table-row-height{
+    height: 50px;
+  }
+  

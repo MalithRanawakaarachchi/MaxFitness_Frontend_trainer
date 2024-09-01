@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tr-height{
+  height: 100px;
+}
+.tr-height-trainee{
+  height: 80px;
+}
+.searc-bar{
+  margin-bottom: 20px;
+}
+.table-container{
+  max-height: 500px; /* Set the desired fixed height for the table container */
+  overflow-y: auto;
+}
+.component-close-button{
+  width: 20px;
+  height: 25px;
+  margin: 8px 0px 0px 8px;
+}
+.component-close-button-div{
+  text-align: left;
+}
+.close-button-icon{
+  margin-top: -16px;
+  margin-left: -8px;
+}
+.button-secondary{
+  width: 100px;
+  height: 33px;
+  background-color: #606060;
+  color: white;
+  border-radius: 3px;
+  border-color: transparent;
+}
+.button-secondary:hover{
+  background-color: #424242;
+}
+.button-primary{
+  width: 100px;
+  height: 33px;
+  background-color: #0235ff;
+  color: white;
+  border-radius: 3px;
+  border-color: transparent;
+}
+.button-primary:hover{
+  background-color: #0022ac;
+}
+.button-danger{
+  width: 100px;
+  height: 33px;
+  background-color: #f30909;
+  color: white;
+  border-radius: 3px;
+  border-color: transparent;
+}
+.button-danger-transparent{
+  width: 100px;
+  height: 33px;
+  background-color: transparent;
+  color: #ff0202;
+  border-radius: 3px;
+  border-color: #ff0202;
+  border-width: 2px;
+}
+.button-danger-transparent:hover{
+  background-color: #ff0202;
+  color: white;
+}
+.table-column-data{
+  vertical-align: middle;
+}
+.equipment-img{
+  width: 200px;
+}
+.clickable-row {
+  cursor: pointer;
+}
+.left-padding{
+  justify-content: center;
+  text-align: left;
+}
+.button-row-add-eqp{
+  justify-content: center;
+}
+
+.scrollable-container {
+  max-height: 550px; /* Set the desired maximum height */
+  overflow: auto; /* Add a scrollbar when content exceeds the height */
+}
+
+.scrollable-container-schedule {
+  max-height: 500px; /* Set the desired maximum height */
+  overflow: auto; /* Add a scrollbar when content exceeds the height */
+}
+
+.upper-div-metrics{
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #e8e7e7;
+  background-color: rgba(124, 124, 124, 0.05);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 10px;
+}
+
+.main-div-metrics{
+  padding-right: 10px;
+}
+

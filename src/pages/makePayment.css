@@ -1,0 +1,15 @@
+.button-register{
+    width: 100%;
+}
+.text-border1{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 53px;
+}
+
+.text-border2{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -165px;
+    width: 359px;
+}

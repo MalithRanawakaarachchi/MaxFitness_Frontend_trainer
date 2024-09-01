@@ -1,0 +1,19 @@
+/* .body{
+    background-color: aqua;
+} */
+
+#AdminDash{
+    background-color: #000;
+}
+.border{
+    padding-top: 100px;
+}
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.container-home {
+    flex: 1; /* Let the main content container grow and take up the remaining space */
+    padding: 20px;
+  }
